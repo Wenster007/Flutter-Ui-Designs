@@ -335,6 +335,7 @@ class _MovieAppState extends State<MovieApp> {
                                 ),
                               ),
                             );
+
                           },
                           itemCount: comingSoonMovies.length,
                           scrollDirection: Axis.horizontal,
