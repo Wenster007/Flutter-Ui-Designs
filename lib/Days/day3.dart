@@ -384,14 +384,64 @@ class ChildCamping extends StatelessWidget {
                           borderRadius:
                               BorderRadius.circular(Get.height * 0.035),
                         ),
-                        child: Icon(Icons.calendar_today_rounded),
+                        child: Icon(
+                          Icons.calendar_month_sharp,
+                          size: Get.height * 0.038,
+                        ),
                       )
                     ],
                   )
                 ],
               ),
             ),
-          )
+          ),
+          Positioned(
+            top: 40,
+            left: 0,
+            right: 0,
+            child: Padding(
+              padding: EdgeInsets.symmetric(horizontal: Get.height * 0.02),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  CircleAvatar(
+                    radius: Get.height * 0.03,
+                    backgroundColor: Colors.white,
+                    child: Icon(
+                      Icons.arrow_back_ios_sharp,
+                      size: Get.height * 0.026,
+                      color: Colors.black,
+                    ),
+                  ),
+                  Row(
+                    children: [
+                      CircleAvatar(
+                        radius: Get.height * 0.03,
+                        backgroundColor: Colors.white,
+                        child: Icon(
+                          Icons.bookmark_border_outlined,
+                          size: Get.height * 0.026,
+                          color: Colors.black,
+                        ),
+                      ),
+                      SizedBox(
+                        width: Get.height * 0.01,
+                      ),
+                      CircleAvatar(
+                        radius: Get.height * 0.03,
+                        backgroundColor: Colors.white,
+                        child: Icon(
+                          Icons.ios_share_outlined,
+                          size: Get.height * 0.026,
+                          color: Colors.black,
+                        ),
+                      ),
+                    ],
+                  )
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
