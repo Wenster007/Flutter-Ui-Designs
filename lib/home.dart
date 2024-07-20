@@ -1,6 +1,8 @@
 import 'package:design_projects/Days/day1.dart';
 import 'package:design_projects/Days/day2.dart';
 import 'package:design_projects/Days/day3.dart';
+import 'package:design_projects/Days/day4.dart';
+import 'package:design_projects/Days/day5.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -30,6 +32,18 @@ class HomeScreen extends StatelessWidget {
                 Get.to(() => ChildCamping());
               },
               child: Text("Day3"),
+            ),
+            TextButton(
+              onPressed: () {
+                Get.to(() => OnlineCourses());
+              },
+              child: Text("Day4"),
+            ),
+            TextButton(
+              onPressed: () {
+                Get.to(() => HealthTrackingApp());
+              },
+              child: Text("Day5"),
             ),
           ],
         ),
