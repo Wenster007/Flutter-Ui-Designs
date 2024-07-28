@@ -31,7 +31,6 @@ class _MovieAppState extends State<MovieApp> {
   ];
 
   int currentIndex = 0;
-
   int _selectedIndex = 0;
 
   void _onItemTapped(int index) {
@@ -335,7 +334,6 @@ class _MovieAppState extends State<MovieApp> {
                                 ),
                               ),
                             );
-
                           },
                           itemCount: comingSoonMovies.length,
                           scrollDirection: Axis.horizontal,

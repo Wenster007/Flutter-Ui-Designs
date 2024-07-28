@@ -267,7 +267,7 @@ class HealthTrackingApp extends StatelessWidget {
                   child: Container(
                     height: Get.height * 0.16,
                     padding:
-                    EdgeInsets.symmetric(horizontal: Get.height * 0.02),
+                        EdgeInsets.symmetric(horizontal: Get.height * 0.02),
                     decoration: BoxDecoration(
                       color: Colors.grey.withOpacity(0.2),
                       borderRadius: BorderRadius.circular(
@@ -333,7 +333,7 @@ class HealthTrackingApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-right: 0,
+                  right: 0,
                   child: Column(
                     children: [
                       Image.asset(
