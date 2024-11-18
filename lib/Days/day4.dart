@@ -1,10 +1,10 @@
+import 'package:design_projects/models/category.dart';
+import 'package:design_projects/models/subject.dart';
 import 'package:design_projects/my_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
-import '../models/category.dart';
-import '../models/subject.dart';
 
 class OnlineCourses extends StatefulWidget {
   const OnlineCourses({Key? key}) : super(key: key);
