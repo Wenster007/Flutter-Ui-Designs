@@ -1,5 +1,5 @@
-import 'package:get/get.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class MyText extends StatelessWidget {
   const MyText(
@@ -9,7 +9,8 @@ class MyText extends StatelessWidget {
     this.fontWeight,
     this.overflow,
     this.color,
-    this.maxLines, this.wordSpacing,
+    this.maxLines,
+    this.wordSpacing, this.fontFamily,
   }) : super(key: key);
   final String text;
   final double? fontSize;
@@ -18,6 +19,7 @@ class MyText extends StatelessWidget {
   final Color? color;
   final int? maxLines;
   final double? wordSpacing;
+  final String? fontFamily;
 
   @override
   Widget build(BuildContext context) {
@@ -30,6 +32,7 @@ class MyText extends StatelessWidget {
         fontWeight: fontWeight ?? FontWeight.normal,
         overflow: overflow,
         color: color,
+        fontFamily: fontFamily,
       ),
     );
   }
