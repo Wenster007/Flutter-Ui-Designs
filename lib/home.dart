@@ -5,6 +5,7 @@ import 'package:design_projects/Days/day4.dart';
 import 'package:design_projects/Days/day5.dart';
 import 'package:design_projects/Days/day6.dart';
 import 'package:design_projects/Days/day7.dart';
+import 'package:design_projects/Days/day8.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -58,6 +59,12 @@ class HomeScreen extends StatelessWidget {
                 Get.to(() => Day7());
               },
               child: Text("Day7"),
+            ),
+            TextButton(
+              onPressed: () {
+                Get.to(() => LiveStreamingApp());
+              },
+              child: Text("Day8"),
             ),
           ],
         ),
