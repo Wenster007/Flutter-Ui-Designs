@@ -1,5 +1,4 @@
-import 'package:design_projects/Days/day8.dart';
-import 'package:design_projects/home.dart';
+import 'package:design_projects/Days/day9.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: LoginScreen(),
     );
   }
 }
