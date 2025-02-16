@@ -3,7 +3,6 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 import 'home.dart';
 
-
 void main() {
   runApp(const MyApp());
 }

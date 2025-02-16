@@ -10,7 +10,8 @@ class MyText extends StatelessWidget {
     this.overflow,
     this.color,
     this.maxLines,
-    this.wordSpacing, this.fontFamily,
+    this.wordSpacing,
+    this.fontFamily, this.textAlign,
   }) : super(key: key);
   final String text;
   final double? fontSize;
@@ -20,6 +21,7 @@ class MyText extends StatelessWidget {
   final int? maxLines;
   final double? wordSpacing;
   final String? fontFamily;
+  final TextAlign? textAlign;
 
   @override
   Widget build(BuildContext context) {
@@ -34,6 +36,7 @@ class MyText extends StatelessWidget {
         color: color,
         fontFamily: fontFamily,
       ),
+      textAlign: textAlign,
     );
   }
 }

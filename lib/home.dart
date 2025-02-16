@@ -1,4 +1,5 @@
 import 'package:design_projects/Days/day1.dart';
+import 'package:design_projects/Days/day10.dart';
 import 'package:design_projects/Days/day2.dart';
 import 'package:design_projects/Days/day3.dart';
 import 'package:design_projects/Days/day4.dart';
@@ -72,6 +73,12 @@ class HomeScreen extends StatelessWidget {
                 Get.to(() => LoginScreen());
               },
               child: Text("Day9"),
+            ),
+            TextButton(
+              onPressed: () {
+                Get.to(() => Day10());
+              },
+              child: Text("Day10"),
             ),
           ],
         ),
